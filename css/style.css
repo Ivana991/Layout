@@ -1,0 +1,189 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+/*****HEADER*****/
+
+header {
+    position: relative;
+    left: 0;
+    right: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+header p {
+    color: rgb(85, 84, 84);
+}
+header a {
+    color: rgb(85, 84, 84);
+    font-size: 1.3vw;
+    margin-left: 2.4vw;
+    letter-spacing: 0.5px;
+}
+
+header a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+header a:visited {
+    color:black;
+}
+
+#link-menu {
+    color: rgb(85, 84, 84);
+    font-size: 2.3vw;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+#menu-img {
+    width: 2.5vw;
+    height: 1.9vw;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+@media screen and (max-width:576px) {
+    #link-menu {
+        font-size: 3vw;
+        margin-right: -20px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    #p1-div {
+        margin-top: -50px;
+    }
+}
+
+/*****HERO*****/
+
+#hero {
+    background-image: url(../imgs/hero.jpg);
+    background-repeat:no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 40vw;
+    overflow-x: hidden;
+}
+
+#hero p {
+    display: inline-block;
+    font-size: 1.6vw;
+    background-color: rgb(49, 198, 139);
+    letter-spacing: 0.03vw;
+}
+
+@media screen and (max-width:768px) {
+    #hero p {
+        font-size: 1.9vw;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #hero p {
+        font-size: 3.3vw;
+    }
+}
+
+@media screen and (max-width:414px) {
+    #hero p {
+        font-size: 3vw;
+    }
+}
+
+/*****SECTION2*****/
+
+#section2 p:nth-child(3) {
+    font-size: 19px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/*****SECTION3*****/
+
+#section3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-bottom: 5%;
+}
+
+#section3 p {
+    font-size: 18px;
+}
+
+hr {
+    margin-top: -13px;
+}
+
+#thumb2 img {
+    width: 100%;
+    height: 30vh;
+}
+
+#thumb img {
+    width: 100%;
+    height: 30vh;
+}
+
+@media screen and (max-width:768px) {
+    #thumb2 img {
+        height: 35vw;
+    }
+}
+
+@media screen and (max-width:576px) {
+    #thumb img {
+        height: 80vw;
+    }
+    #thumb2 img {
+        height: 50vw;
+    }
+}
+
+/*****SECTION4*****/
+
+#section4 {
+    background-color: rgb(20, 20, 20);
+}
+
+#section4 p {
+    font-size: 14px;
+    color: rgb(136, 135, 135);
+}
+
+#section4 a {
+    color: rgb(167, 164, 164);
+}
+
+#section4 a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#list2 {
+    font-size: 13px;
+}
+
+#section4 li {
+    display: block;
+    border-bottom: 0.02px solid rgb(206, 204, 204);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.line {
+    border-top: 0.02px solid rgb(206, 204, 204);
+}
+
+/*****FOOTER*****/
+
+footer {
+    background-color: black;
+    overflow-x: hidden;
+}  
+
+footer p {
+    color: gray;
+}
